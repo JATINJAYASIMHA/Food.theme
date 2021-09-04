@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>MY RESTAURANT</title>
+</head>
+<body>
+    <nav class="navbar">
+    <h1 class="logo">My Restaurant</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Contact Us</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Order Online</li>
+        </ul>
+         <img src="./assets1/menu-btn.png" alt="" class="menu-btn"> 
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h3>Discover the best food & drinks</h3>
+        <div class="line"></div>
+            <h1 class="title1">MY</h1>
+            <h1 class="title2">RESTAURANT</h1>
+            <a href="#" class="ctn">Order Now</a>
+        </div>
+    </header>
+
+<!-- Catalouge -->
+
+    <section> 
+        <div class="title">
+            <h1>Order from the best</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./assets1/south indian.jpg" alt="" class="img">
+                <h4>South Indian Cuisines </h4>
+                <a href="#" class="ctn">Order Now</a>
+            </div>
+            <div class="col">
+                <img src="./assets1/italian.jfif" alt="" class="img">
+                <h4>Italian Cuisines </h4>
+                <a href="#" class="ctn">Order Now</a>
+            </div>
+            <div class="col">
+                <img src="./assets1/chinese.jfif" alt="" class="img">
+                <h4>Chinese Dishes </h4>
+                <a href="#" class="ctn">Order Now</a>
+            </div>
+            <div class="col">
+                <img src="./assets1/Pizza.jpg" alt="" class="img">
+                <h4>Pizzas </h4>
+                <a href="#" class="ctn">Order Now</a>
+            </div>
+            <div class="col">
+                <img src="./assets1/burgers.jpg" alt="" class="img">
+                <h4>Burgers</h4>
+                <a href="#" class="ctn">Order Now</a>
+            </div>
+            <div class="col">
+                <img src="./assets1/donuts.jfif" alt="" class="img">
+                <h4>Donuts </h4>
+                <a href="#" class="ctn">Order Now</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="home">
+       <div class="home-content">
+        <h1>Free Home Delivery</h1>
+        <div class="line"></div>
+        <p>Free delivery is only applicable on orders above 300/- and above.</p>
+        <a href="#" class="ctn">Order Now</a>
+       </div>
+    </section>
+
+    <section class="footer">
+        <p>123 Eighth Avenue, PR 1252220, Paris, France | Phone: 888-111-857 | Email: myrestaurant@gmail.com</p>
+        <p>Copyright © 2020 My Restaurant</p>
+    </section>
+
+    
+
+
+
+
+
+        
+
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    
+</body>
+</html>
